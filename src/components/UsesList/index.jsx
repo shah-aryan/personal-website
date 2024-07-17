@@ -5,9 +5,17 @@ const educationData = [
   {
     section: "University of Michigan",
     location: "Ann Arbor, MI",
-    degree: "Bachelor of Science in Computer Science, Minor in Mathematics",
+    degree: "Bachelor of Science in Computer Science",
+    minor: "Minor in Mathematics",
     year: "2026",
     gpa: "3.94/4.00",
+    scholarships: [
+      "DECA Scholarship - DECA Inc's largest and most prestigious scholarship. 5 selected out of 10,000+ applicants for positive impact.",
+      "CFCU Scholarship",
+      "Loca Scholarship",
+      "Regents Scholarships",
+      "William J. Branstrom Freshman Prize",
+    ],
     coursework: {
       computerScience: [
         "EECS 445 - Machine Learning",
@@ -29,6 +37,12 @@ const educationData = [
     degree: "Bachelor of Business Administration",
     year: "2026",
     gpa: "4.00/4.00",
+    activities: [
+      "Phi Beta Lambda Professional Business Fraternity - Standards Board Member",
+      "Michigan Investment Group - Quant Division",
+      "Michigan Private Equity and Venture Capital Club",
+      "Jain Students Association Board",
+    ],
     coursework: {
       economics: [
         "ECON 398 - Game Theory & Strategy",
@@ -43,17 +57,6 @@ const educationData = [
         "BA 100, 200 - Foundations in Business",
       ],
     },
-    activities: [
-      "Phi Beta Lambda Professional Business Fraternity - Standards Board Member",
-      "Jain Students Association Board",
-    ],
-    scholarships: [
-      "DECA Inc.",
-      "CFCU",
-      "Local",
-      "Regents Scholarships",
-      "William J. Branstrom Freshman Prize",
-    ],
   },
 ];
 
@@ -80,22 +83,27 @@ const EducationList = () => {
         >
           <h6 className="text-xl font-bold text-primary mb-4 dark:text-white">
             {section.section}
-            <span className="mt-4 text-base flex items-center justify-start  text-neutral-600 dark:text-neutral-300">
+            <span className="mt-4 text-base flex items-center justify-start text-neutral-600 dark:text-neutral-300">
               {section.location}
             </span>
-            <span className="mt-2 text-base flex items-center justify-start  text-neutral-600 dark:text-neutral-300">
+            <span className="mt-2 text-base flex items-center justify-start text-neutral-600 dark:text-neutral-300">
               GPA: {section.gpa}
             </span>
-            <span className="mt-2 text-base flex items-center justify-start  text-neutral-600 dark:text-neutral-300">
-              {section.degree} 
+            <span className="mt-2 text-base flex items-center justify-start text-neutral-600 dark:text-neutral-300">
+              {section.degree}
             </span>
+            {(
+              <span className="mt-2 text-base flex items-center justify-start text-neutral-600 dark:text-neutral-300">
+                {section.minor ? `${section.minor}` : "     \u3000"}
+              </span>
+            )}
           </h6>
           <div className="relative mb-4">
             <div className="absolute inset-0 flex items-center" aria-hidden="true">
               <div className="w-full border-t border-gray-300" />
             </div>
             <div className="relative flex justify-center">
-              <span className=" px-2 bg-gray-50 text-sm text-gray-500 dark:bg-primary-500">
+              <span className="px-2 bg-gray-50 text-sm text-gray-500 dark:bg-primary-500">
                 Relevant Coursework
               </span>
             </div>
@@ -150,6 +158,31 @@ const EducationList = () => {
                   </ul>
                 </>
               )}
+            </>
+          )}
+
+          {section.activities && (
+            <>
+              <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2">
+                Activities
+              </h3>
+              <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">
+                {section.activities.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </>
+          )}
+          {section.scholarships && (
+            <>
+              <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2">
+                Scholarships
+              </h3>
+              <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">
+                {section.scholarships.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
             </>
           )}
         </motion.div>
