@@ -27,7 +27,7 @@ const TabSection = () => {
           <p className="text-base font-normal text-neutral-700 dark:text-neutral-300">
           <ul className="list-disc list-inside space-y-4 tracking-wide leading-6">
             <li><strong>Lead Software Engineer at Predica:</strong> Leading development of a full-stack HR technology web app.</li>
-            <li><strong>Building Analyrics:</strong> Finishing up my side project at <a href="http://analyrics.info" className="text-blue-500 underline">analyrics.info</a>, a full-stack web application with a lyrics analysis database of over 1 million songs, artists, and albums. Utilized MongoDB, Express.js, React, Tailwind, RESTful APIs, and Node.js to create its iconic Bento box UI/UX design.</li>
+            <li><strong>Building Analyrics:</strong> Finishing up my full-stack web application at <a href="http://analyrics.info" className="text-blue-500 underline">analyrics.info</a>, the world's most unique, creative, and beautiful lyrics analyzer, with a lyrics analysis database of over 1 million songs, artists, and albums. </li>
             <li><strong>Self-Studying:</strong> Currently focusing on linear algebra in order to dive deep into ML soon. Expect some more ML projects in the next months!</li>
             <li><strong>Recruiting:</strong> Seeking software engineering internships for Summer 2025.</li>
             <li>I've also been working as a part-time Wedding/Party MC, running, weightlifting, and playing music in my free time.</li>
