@@ -21,7 +21,6 @@ const projects = [
     id: 3,
     heading: "Robotics Scouting Apps",
     description: `<p>Developed and launched 4 game Scouting and Pit Scouting apps, on iOS and Android to streamline, democratize, and improve data collection and analysis, with a successful reception of 150+ downloads. Apps used to collect & analyze datasets, leveraging 10,000+ data points, 30 unique variables, and a custom algorithm to make automated alliance decisions for best competition standing, resulting in a 4th place worldwide Robot Alliance position in 2019.</p>`,
-    websiteLink: "https://languagesloth.com/",
   },
   {
     id: 4,
