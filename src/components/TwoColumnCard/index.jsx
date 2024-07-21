@@ -23,9 +23,7 @@ const TwoColumnCard = () => {
    >
     <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
      <a
-      href="https://predica.com/"
       target="_blank"
-      className="hover:underline"
      >
       Predica
      </a>
@@ -67,7 +65,7 @@ const TwoColumnCard = () => {
    >
     <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
      <a
-      // href="https://tech5ai.com/"
+      href="https://tech5.ai/"
       target="_blank"
       className="hover:underline"
      >
@@ -110,7 +108,7 @@ const TwoColumnCard = () => {
    >
     <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
      <a
-      //="https://umich.edu/"
+      href="https://www.michiganinvestmentgroup.com/"
       target="_blank"
       className="hover:underline"
      >
@@ -153,7 +151,7 @@ const TwoColumnCard = () => {
    >
     <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
      <a
-      //href="https://mideca.org/"
+      href="https://sugareventsent.com/"
       target="_blank"
       className="hover:underline"
      >
@@ -196,7 +194,7 @@ const TwoColumnCard = () => {
    >
     <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
      <a
-      //href="https://umich.edu/"
+      href="https://www.michiganpevc.org/"
       target="_blank"
       className="hover:underline"
      >
@@ -240,7 +238,6 @@ const TwoColumnCard = () => {
    >
     <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
      <a
-      //href="https://mideca.org/"
       target="_blank"
       className="hover:underline"
      >
