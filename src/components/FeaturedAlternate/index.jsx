@@ -36,7 +36,7 @@ const projects = [
   },
   {
     id: 6,
-    heading: "SQL Mock",
+    heading: "SQL++ Relational Database",
     description: "<p>Designed and implemented a relational database in C++, incorporating essential SQL functionalities such as CREATE, INSERT, DELETE, PRINT, and JOIN commands, enhancing data storage and retrieval capabilities. Developed a command shell for database interaction, allowing efficient execution of SQL-like commands, including conditional data filtering (WHERE clause) and indexing (GENERATE command), significantly improving the user experience in data manipulation tasks. Please contact me for more information on the Code, as I am not able to make it public.</p>",
   },
   {

@@ -12,7 +12,7 @@ const educationData = [
     scholarships: [
       "DECA Scholarship - DECA Inc's largest and most prestigious scholarship. 5 selected out of 10,000+ applicants for positive impact.",
       "CFCU Scholarship",
-      "Loca Scholarship",
+      "Local Scholarship",
       "Regents Scholarships",
       "William J. Branstrom Freshman Prize",
     ],
