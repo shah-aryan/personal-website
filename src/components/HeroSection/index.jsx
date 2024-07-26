@@ -26,15 +26,19 @@ const HeroSection = () => {
       <div className="container relative">
         <div className="flex items-center flex-col">
           <div className="flex flex-col items-center justify-center min-h-[90vh] md:min-h-screen">
-            <motion.h1
-              viewport={{ once: true }}
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ type: "linear", duration: 0.5 }}
-              className="hero__heading"
-            >
-              ARYAN
-            </motion.h1>
+          <motion.h1 className="hero__heading">
+            {['A', 'R', 'Y', 'A', 'N'].map((letter, index) => (
+              <motion.span
+                key={index}
+                viewport={{ once: true }}
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ type: "spring", stiffness: 100, duration: 0.5, delay: index * 0.2 }}
+              >
+                {letter}
+              </motion.span>
+            ))}
+          </motion.h1>
           </div>
         </div>
         <div className="w-full relative bottom-20 md:w-auto md:absolute md:top-[70%]">
