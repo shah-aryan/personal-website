@@ -6,11 +6,11 @@ import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
-    heading: "Analyrics",
-    description: `<p>Developed "Analyrics," a full-stack web application with a lyrics analysis database of over 1 million songs, artists, and albums, using MongoDB, Express.js, React, Tailwind, RESTful APISs and Node.js to create its iconic Bento box UI/UX design. Implemented NLP algorithms for lyrics, vocabulary, and sentiment analysis, interactively and creatively visualized in artist collaboration maps, sentiment analyses over time, reading level assessments, vocabulary size, most used words, and more.</p>`,
+    heading: "Analyrics | 25,000+ Users",
+    description: `<p>Developed "Analyrics," a full-stack web application with a lyrics analysis database of over 1 million songs, artists, and albums, using MongoDB, Express.js, React, Tailwind, RESTful APIs, and Node.js, resulting in low latency and a well-received iconic UI. Implemented NLP algorithms for lyrics analysis to identify emotions, vocabularies, trends, and collaborations in music. Visualized interactive artist collaboration maps, emotion analyses, reading levels, and word clouds creatively using D3.js. Developed efficient web scrapers for 1M+ web pages, implementing concurrency in Python, leveraging rate-limiting to avoid IP bans, and employing robust error handling, data validation, and retry mechanisms to ensure data integrity and reliability. Received overwhelmingly positive feedback from users and tech companies (Apple, Spotify, Genius), with feedback praising the platform's creativity, usability, design, and innovative features, contributing to a user base of 25,000+ users.</p>`,
     websiteLink: "https://analyrics.info/",
     githubLink: "https://github.com/shah-aryan/Analyrics",
-  },
+  },  
   {
     id: 2,
     heading: "PreciPal Companion App ML Model",
