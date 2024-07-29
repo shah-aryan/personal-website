@@ -19,7 +19,7 @@ const TwoColumnCard = () => {
      },
     }}
     whileHover={{ scale: 1.02 }}
-    className="cursor-pointer bg-gray-50 px-6 py-16 rounded-3xl h-full filter shadow-md relative md:px-10 dark:bg-primary-500"
+    className="cursor-pointer bg-gray-100 px-6 py-16 rounded-3xl h-full filter shadow-md relative md:px-10 dark:bg-primary-500"
    >
     <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
      <a
@@ -41,7 +41,7 @@ const TwoColumnCard = () => {
       <div className="w-full border-t border-gray-300" />
      </div>
      <div className="relative flex justify-center">
-      <span className="uppercase px-2 bg-gray-50 text-sm text-gray-500 dark:bg-primary-500">
+      <span className="uppercase px-2 bg-gray-100 text-sm text-gray-500 dark:bg-primary-500">
        duties & responsibilities
       </span>
      </div>
@@ -61,7 +61,7 @@ const TwoColumnCard = () => {
      },
     }}
     whileHover={{ scale: 1.02 }}
-    className="bg-gray-50 px-6 py-16 rounded-3xl h-full relative filter shadow-md md:px-10 dark:bg-primary-500"
+    className="bg-gray-100 px-6 py-16 rounded-3xl h-full relative filter shadow-md md:px-10 dark:bg-primary-500"
    >
     <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
      <a
@@ -85,7 +85,7 @@ const TwoColumnCard = () => {
       <div className="w-full border-t border-gray-300" />
      </div>
      <div className="relative flex justify-center">
-      <span className="uppercase px-2 bg-gray-50 text-sm text-gray-500 dark:bg-primary-500">
+      <span className="uppercase px-2 bg-gray-100 text-sm text-gray-500 dark:bg-primary-500">
        duties & responsibilities
       </span>
      </div>
@@ -104,7 +104,7 @@ const TwoColumnCard = () => {
      },
     }}
     whileHover={{ scale: 1.02 }}
-    className="bg-gray-50 px-6 py-16 rounded-3xl h-full relative filter shadow-md md:px-10 dark:bg-primary-500"
+    className="bg-gray-100 px-6 py-16 rounded-3xl h-full relative filter shadow-md md:px-10 dark:bg-primary-500"
    >
     <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
      <a
@@ -128,7 +128,7 @@ const TwoColumnCard = () => {
       <div className="w-full border-t border-gray-300" />
      </div>
      <div className="relative flex justify-center">
-      <span className="uppercase px-2 bg-gray-50 text-sm text-gray-500 dark:bg-primary-500">
+      <span className="uppercase px-2 bg-gray-100 text-sm text-gray-500 dark:bg-primary-500">
        duties & responsibilities
       </span>
      </div>
@@ -147,7 +147,7 @@ const TwoColumnCard = () => {
      },
     }}
     whileHover={{ scale: 1.02 }}
-    className="cursor-pointer bg-gray-50 px-6 py-16 rounded-3xl h-full filter shadow-md relative md:px-10 dark:bg-primary-500"
+    className="cursor-pointer bg-gray-100 px-6 py-16 rounded-3xl h-full filter shadow-md relative md:px-10 dark:bg-primary-500"
    >
     <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
      <a
@@ -171,7 +171,7 @@ const TwoColumnCard = () => {
       <div className="w-full border-t border-gray-300" />
      </div>
      <div className="relative flex justify-center">
-      <span className="uppercase px-2 bg-gray-50 text-sm text-gray-500 dark:bg-primary-500">
+      <span className="uppercase px-2 bg-gray-100 text-sm text-gray-500 dark:bg-primary-500">
        duties & responsibilities
       </span>
      </div>
@@ -190,7 +190,7 @@ const TwoColumnCard = () => {
      },
     }}
     whileHover={{ scale: 1.02 }}
-    className="cursor-pointer bg-gray-50 px-6 py-16 rounded-3xl h-full filter shadow-md relative md:px-10 dark:bg-primary-500"
+    className="cursor-pointer bg-gray-100 px-6 py-16 rounded-3xl h-full filter shadow-md relative md:px-10 dark:bg-primary-500"
    >
     <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
      <a
@@ -214,7 +214,7 @@ const TwoColumnCard = () => {
       <div className="w-full border-t border-gray-300" />
      </div>
      <div className="relative flex justify-center">
-      <span className="uppercase px-2 bg-gray-50 text-sm text-gray-500 dark:bg-primary-500">
+      <span className="uppercase px-2 bg-gray-100 text-sm text-gray-500 dark:bg-primary-500">
        duties & responsibilities
       </span>
      </div>
@@ -234,7 +234,7 @@ const TwoColumnCard = () => {
      },
     }}
     whileHover={{ scale: 1.02 }}
-    className="cursor-pointer bg-gray-50 px-6 py-16 rounded-3xl h-full filter shadow-md relative md:px-10 dark:bg-primary-500"
+    className="cursor-pointer bg-gray-100 px-6 py-16 rounded-3xl h-full filter shadow-md relative md:px-10 dark:bg-primary-500"
    >
     <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
      <a
@@ -257,7 +257,7 @@ const TwoColumnCard = () => {
       <div className="w-full border-t border-gray-300" />
      </div>
      <div className="relative flex justify-center">
-      <span className="uppercase px-2 bg-gray-50 text-sm text-gray-500 dark:bg-primary-500">
+      <span className="uppercase px-2 bg-gray-100 text-sm text-gray-500 dark:bg-primary-500">
        duties & responsibilities
       </span>
      </div>

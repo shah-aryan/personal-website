@@ -79,7 +79,7 @@ const EducationList = () => {
             },
           }}
           whileHover={{ scale: 1.02 }}
-          className="cursor-pointer bg-gray-50 px-6 py-16 rounded-3xl h-full filter shadow-md relative md:px-10 dark:bg-primary-500 mb-12"
+          className="cursor-pointer bg-gray-100 px-6 py-16 rounded-3xl h-full filter shadow-md relative md:px-10 dark:bg-primary-500 mb-12"
         >
           <h6 className="text-xl font-bold text-primary mb-4 dark:text-white">
             {section.section}

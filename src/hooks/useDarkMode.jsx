@@ -17,12 +17,12 @@ const useLocalStorage = (key, initialValue) => {
         value instanceof Function ? value(storedValue) : value;
 
       setStoredValue(valueToStore);
-
       window.localStorage.setItem(key, JSON.stringify(valueToStore));
     } catch (error) {
       console.log(error);
     }
   };
+
   return [storedValue, setValue];
 };
 
@@ -37,7 +37,17 @@ const useDarkMode = () => {
     isEnabled ? bodyClass.add(className) : bodyClass.remove(className);
   }, [isEnabled]);
 
-  return [enabledState, setEnabledState];
+  const toggleDarkMode = () => {
+    setEnabledState((prevMode) => {
+      const newMode = !prevMode;
+      const scrollPosition = window.scrollY;
+      window.localStorage.setItem("scrollPosition", JSON.stringify(scrollPosition));
+      window.location.reload();
+      return newMode;
+    });
+  };
+
+  return [isEnabled, toggleDarkMode];
 };
 
 export default useDarkMode;

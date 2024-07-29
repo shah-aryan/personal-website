@@ -19,7 +19,7 @@ function App() {
   });
 
   return (
-    <div className="">
+    <div className="bg-gray-300 dark:bg-primary">
       {loading ? (
         <>
           <NavBar />
