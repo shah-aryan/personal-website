@@ -19,13 +19,13 @@ const projects = [
   },
   {
     id: 3,
-    heading: "Robotics Scouting Apps",
+    heading: "Robotics Scouting Apps | 4th place worldwide",
     description: `<p>Developed and launched 4 game Scouting and Pit Scouting apps, on iOS and Android to streamline, democratize, and improve data collection and analysis, with a successful reception of 150+ downloads. Apps used to collect & analyze datasets, leveraging 10,000+ data points, 30 unique variables, and a custom algorithm to make automated alliance decisions for best competition standing, resulting in a 4th place worldwide Robot Alliance position in 2019.</p>`,
   },
   {
     id: 4,
     heading: "Limit Order Book Simulator",
-    description: "<p>Developed a synchronous limit order book simulator in Python, featuring trade matching, order execution, TCP/UDP connection protocol, and MVC (Model, View, Controller) structure, decreasing trading education time by 3 hours per student.</p>",
+    description: "<p>Developed a synchronous limit order book simulator in Python, featuring trade matching, order execution, TCP/UDP connection protocol, and MVC (Model, View, Controller) structure. Used by 15 new members.</p>",
     githubLink: "https://github.com/shah-aryan/limit_order_book_2",
   },
   {
@@ -36,20 +36,14 @@ const projects = [
   },
   {
     id: 6,
-    heading: "SQL++ Relational Database",
-    description: "<p>Designed and implemented a relational database in C++, incorporating essential SQL functionalities such as CREATE, INSERT, DELETE, PRINT, and JOIN commands, enhancing data storage and retrieval capabilities. Developed a command shell for database interaction, allowing efficient execution of SQL-like commands, including conditional data filtering (WHERE clause) and indexing (GENERATE command), significantly improving the user experience in data manipulation tasks. Please contact me for more information on the Code, as I am not able to make it public.</p>",
+    heading: "SQL++: Educational Tool for SQL/DSA",
+    description: "<p>Built educational relational database in C++17, with CREATE, INSERT, DELETE, PRINT, and JOIN commands, using Hash Tables, AVL trees, Red-Black Trees, and Comparators to show how data structures can affect performance. Used by 25+ students. Developed a CLI for the database, including conditional data filtering (WHERE) and indexing (GENERATE), providing hands-on and accessible database education, focusing on query optimization, data structures in indexing, and the machine model</p>",
   },
   {
     id: 7,
     heading: "Forum Post Subject Identifier",
-    description: "<p>Developed a Natural Language Processing program in C++ that leverages a Multivariate Bernoulli Naive Bayes Classifier algorithm to identify the subjects of forum posts, achieving a 92% success rate in subject classification. Implemented a custom binary search tree to store and search for elements efficiently, decreasing runtime and memory usage. Please contact me for more information on the Code, as I am not able to make it public.</p>",
-  },
-  {
-    id: 8,
-    heading: "24 Game Solver",
-    description: "<p>A simple solver for the popular 24 game. It's a unique solver because it shows all possible unique solutions and incorporates order of operations in the solutions as well.</p>",
-    githubLink: "https://github.com/shah-aryan/24-solver",
-  },
+    description: "<p>Developed a Natural Language Processing program in C++ that leverages a Multivariate Bernoulli Naive Bayes Classifier algorithm to identify the subjects of forum posts, achieving a 92% success rate in subject classification. Implemented a custom binary search tree to store and search for elements efficiently, decreasing runtime and memory usage. </p>",
+  }
 ];
 
 const CardGrid = () => {

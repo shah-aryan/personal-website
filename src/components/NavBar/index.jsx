@@ -78,25 +78,6 @@ export default function NavBar() {
       >
         <div className="flex justify-end items-center px-0 py-4 gap-4 sm:px-6 lg:py-8 lg:gap-10">
           <div className="mr-auto">
-            {/* <a href="#home">
-              {darkTheme ? (
-                <img
-                  className="h-12 w-auto"
-                  src={images.brandLogoDark}
-                  alt="brand icon"
-                  height={12}
-                  width={245}
-                />
-              ) : (
-                <img
-                  className="h-12 w-auto"
-                  src={images.brandLogoLight}
-                  alt="brand icon"
-                  height={12}
-                  width={245}
-                />
-              )}
-            </a> */}
             <p className="text-primary font-display text-2xl font-bold dark:text-white">
               ARYAN S.
             </p>
