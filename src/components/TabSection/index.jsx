@@ -26,11 +26,11 @@ const TabSection = () => {
           <h2 className="text-2xl font-semibold mb-4">👋 Hi, I'm Aryan Shah! I'm currently working on:</h2>
           <p className="text-base font-normal text-neutral-700 dark:text-neutral-300">
           <ul className="list-disc list-inside space-y-4 tracking-wide leading-6">
-            <li><strong>Software Engineer at Predica:</strong> Developing a full-stack HR technology web app. Contact me for more details.</li>
+            <li><strong>Software Engineer at Predica (Stealth):</strong> Developing a full-stack HR technology web app. Contact me for more details.</li>
             <li><strong>Building Analyrics:</strong> Finishing up my full-stack web application at <a href="http://analyrics.info" className="text-blue-500 underline">analyrics.info</a>, the world's most unique, creative, and beautiful lyrics analyzer, with a lyrics analysis database of over 1 million songs, artists, and albums. </li>
-            <li><strong>Self-Studying:</strong> Currently focusing on linear algebra in order to dive deep into ML soon. Expect some more ML projects in the next months!</li>
+            <li><strong>Studying:</strong> Currently focusing on Machine Learning, Computer Organization, Accounting, and Business Analytics. Expect some more ML projects in the next months!</li>
             <li><strong>Recruiting:</strong> Seeking software engineering internships for Summer 2025.</li>
-            <li>I've also been working as a part-time Wedding/Party MC, running, weightlifting, and playing music in my free time.</li>
+            <li>I've also been working as a part-time Wedding/Party MC, running, weightlifting, playing poker, and playing music in my free time.</li>
           </ul>
           </p>
         </motion.div>
