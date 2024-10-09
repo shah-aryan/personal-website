@@ -1,11 +1,11 @@
 import { useState } from "react";
 import NavBar from "./components/NavBar";
 import HeroSection from "./components/HeroSection";
-import TabSection from "./components/TabSection";
-import TwoColumnCard from "./components/TwoColumnCard";
-import FeaturedAlternate from "./components/FeaturedAlternate";
+import TabSection from "./components/About";
+import TwoColumnCard from "./components/Experiences";
+import FeaturedAlternate from "./components/Projects";
 import Footer from "./components/Footer";
-import UsesList from "./components/UsesList";
+import UsesList from "./components/Education";
 import Skills from "./components/Skills";
 
 import "./index.css";

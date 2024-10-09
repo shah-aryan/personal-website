@@ -27,12 +27,12 @@ const SkillIcons = () => {
       <div className="w-full flex flex-col items-center justify-center">
         <img
           className="w-3/4"
-          src={`https://skillicons.dev/icons?i=cpp,c,python,js,ts,java,kotlin,swift,postgres,mongodb,androidstudio,git,github,selenium&perline=${perLine}`}
+          src={`https://skillicons.dev/icons?i=cpp,c,python,js,ts,java,kotlin,swift,postgres,mongodb,androidstudio,git,github,selenium,anaconda&perline=${perLine}`}
           alt="My Skills"
         />
         <img
           className="w-3/4 mt-16"
-          src={`https://skillicons.dev/icons?i=react,tailwind,css,html,d3,django,docker,express,threejs,vite,bootstrap,npm,nextjs,nodejs,postman,redis,kubernetes,aws,netlify,heroku,vercel&perline=${perLine}`}
+          src={`https://skillicons.dev/icons?i=react,tailwind,css,html,d3,django,docker,express,threejs,vite,bootstrap,npm,nextjs,nodejs,postman,redis,kubernetes,aws,netlify,heroku,vercel,firebase,flask,gcp,azure&perline=${perLine}`}
           alt="My Skills"
         />
       </div>

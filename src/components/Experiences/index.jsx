@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const cardData = [
  {
-  company: "Predica",
+  company: "Stealth Startup",
   period: "MARCH, 2024 - PRESENT",
   role: "SOFTWARE ENGINEER",
   duties: [
@@ -31,6 +31,15 @@ const cardData = [
   link: "https://www.michiganinvestmentgroup.com/"
  },
  {
+  company: "V1@Michigan",
+  period: "SEPTEMBER, 2023 - PRESENT",
+  role: "SOFTWARE ENGINEER",
+  duties: [
+   "Product Studio F24",
+  ],
+  link: "https://www.michiganinvestmentgroup.com/"
+ },
+ {
   company: "Sugar Events and Entertainment",
   period: "JUNE, 2023 - PRESENT",
   role: "WEDDING AND EVENT MC",
@@ -49,15 +58,15 @@ const cardData = [
   ],
   link: "https://www.michiganpevc.org/"
  },
- {
-  company: "Michigan DECA",
-  period: "APRIL, 2022 - APRIL, 2023",
-  role: "VICE PRESIDENT OF CAREER DEVELOPMENT",
-  duties: [
-   "Elected by 8,000 members across Michigan",
-   "VP Of Career Development; Training Handbook Lead Author"
-  ]
- }
+//  {
+//   company: "Michigan DECA",
+//   period: "APRIL, 2022 - APRIL, 2023",
+//   role: "VICE PRESIDENT OF CAREER DEVELOPMENT",
+//   duties: [
+//    "Elected by 8,000 members across Michigan",
+//    "VP Of Career Development; Training Handbook Lead Author"
+//   ]
+//  }
 ];
 
 const TwoColumnCard = () => {
