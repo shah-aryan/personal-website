@@ -3,7 +3,15 @@ import { BriefcaseIcon, CalendarIcon } from "@heroicons/react/solid";
 import { motion } from "framer-motion";
 
 const cardData = [
- {
+  {
+    company: "Fidelity Investments",
+    period: "INCOMING",
+    role: "SOFTWARE ENGINEERING INTERN",
+    duties: [
+      "Incoming Software Engineering Winter Intern",
+    ]
+  }, 
+  {
   company: "Stealth Startup",
   period: "MARCH, 2024 - PRESENT",
   role: "SOFTWARE ENGINEER",
@@ -58,15 +66,15 @@ const cardData = [
   ],
   link: "https://www.michiganpevc.org/"
  },
-//  {
-//   company: "Michigan DECA",
-//   period: "APRIL, 2022 - APRIL, 2023",
-//   role: "VICE PRESIDENT OF CAREER DEVELOPMENT",
-//   duties: [
-//    "Elected by 8,000 members across Michigan",
-//    "VP Of Career Development; Training Handbook Lead Author"
-//   ]
-//  }
+ {
+  company: "Michigan DECA",
+  period: "APRIL, 2022 - APRIL, 2023",
+  role: "VICE PRESIDENT OF CAREER DEVELOPMENT",
+  duties: [
+   "Elected by 8,000 members across Michigan",
+   "VP Of Career Development; Training Handbook Lead Author"
+  ]
+ }
 ];
 
 const TwoColumnCard = () => {

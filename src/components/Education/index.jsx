@@ -19,6 +19,7 @@ const educationData = [
     coursework: {
       computerScience: [
         "EECS 445 - Machine Learning",
+        "EECS 485 - Web Systems",
         "EECS 370 - Computer Organization",
         "EECS 281 - Data Structures & Algorithms",
         "EECS 203 - Discrete Mathematics",
