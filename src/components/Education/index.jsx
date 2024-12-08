@@ -20,6 +20,7 @@ const educationData = [
       computerScience: [
         "EECS 445 - Machine Learning",
         "EECS 485 - Web Systems",
+        "EECS 484 - Databases",
         "EECS 370 - Computer Organization",
         "EECS 281 - Data Structures & Algorithms",
         "EECS 203 - Discrete Mathematics",
@@ -42,7 +43,7 @@ const educationData = [
       "Phi Beta Lambda Professional Business Fraternity - Standards Board Member",
       "Michigan Investment Group - Quant Division",
       "Michigan Private Equity and Venture Capital Club",
-      "Jain Students Association Board",
+      "V1@Michigan Product Studio",
     ],
     coursework: {
       economics: [
