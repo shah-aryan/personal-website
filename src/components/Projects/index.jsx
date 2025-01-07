@@ -80,26 +80,32 @@ const projects = [
     heading: "Robotics Scouting Apps | 4th place worldwide",
     description: `<p>Developed and launched 4 game Scouting and Pit Scouting apps, on iOS and Android to streamline, democratize, and improve data collection and analysis, with a successful reception of 150+ downloads. Apps used to collect & analyze datasets, leveraging 10,000+ data points, 30 unique variables, and a custom algorithm to make automated alliance decisions for best competition standing, resulting in a 4th place worldwide Robot Alliance position in 2019.</p>`,
     //websiteLink: "https://www.robostangs.com/about-the-app"
-  },
+  }, 
   {
     id: 6,
+    heading: "Phi Beta Lambda Website | 1000+ Monthly Visitors",
+    description: `<p>Developed a website for Phi Beta Lambda, my professional business fraternity, in an effort to learn stellar graphic/web design and improve my frontend development skills. The website is used to showcase their events, activities, and achievements, and has received over 1000 monthly visitors. With SEO optimization, this website now sees a 50% increase in traffic. </p>`,
+    websiteLink: "https://www.pblumich.com"
+  },
+  {
+    id: 7,
     heading: "Limit Order Book Simulator",
     description: "<p>Developed a synchronous limit order book simulator in Python, featuring trade matching, order execution, TCP/UDP connection protocol, and MVC (Model, View, Controller) structure. Used by 15 new members to better understand market making.</p>",
     githubLink: "https://github.com/shah-aryan/limit_order_book_2",
   },
   {
-    id: 7,
+    id: 8,
     heading: "Portfolio Rebalancing Algorithm",
     description: "Developed ML portfolio rebalancing algorithm, managing $20,000 portfolio for Ross School of Business's premier finance club, hedging risk and maximizing returns; contributed to an outperformance over the S&P 500 while minimizing Sharpe ratio risk.",
     githubLink: "https://github.com/AryamanGoenka0910/AlgorithmsW24",
   },
   {
-    id: 8,
+    id: 9,
     heading: "SQL++: Educational Tool for SQL/DSA",
     description: "<p>Built educational relational database in C++17, with CREATE, INSERT, DELETE, PRINT, and JOIN commands, using Hash Tables, AVL trees, Red-Black Trees, and Comparators to show how data structures can affect performance. Used by 25+ students. Developed a CLI for the database, including conditional data filtering (WHERE) and indexing (GENERATE), providing hands-on and accessible database education, focusing on query optimization, data structures in indexing, and the machine model</p>",
   },
   {
-    id: 9,
+    id: 10,
     heading: "Forum Post Subject Identifier",
     description: "<p>Developed a Natural Language Processing program in C++ that leverages a Multivariate Bernoulli Naive Bayes Classifier algorithm to identify the subjects of forum posts, achieving a 92% success rate in subject classification. Implemented a custom binary search tree to store and search for elements efficiently, decreasing runtime and memory usage. </p>",
   }
