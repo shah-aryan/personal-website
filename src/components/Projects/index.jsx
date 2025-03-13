@@ -5,9 +5,14 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    id: 1,
     heading: "Analyrics | 25,000+ Users",
-    description: `<p>Developed "Analyrics," a full-stack web application with a lyrics analysis database of over 1 million songs, artists, and albums, using MongoDB, Express.js, React, Tailwind, RESTful APIs, and Node.js, resulting in low latency and a well-received iconic UI. Implemented NLP algorithms for lyrics analysis to identify emotions, vocabularies, trends, and collaborations in music. Visualized interactive artist collaboration maps, emotion analyses, reading levels, and word clouds creatively using D3.js. Developed efficient web scrapers for 1M+ web pages, implementing concurrency in Python, leveraging rate-limiting to avoid IP bans, and employing robust error handling, data validation, and retry mechanisms to ensure data integrity and reliability. Received overwhelmingly positive feedback from users and tech companies (Apple, Spotify, Genius), with feedback praising the platform's creativity, usability, design, and innovative features, contributing to a user base of 25,000+ users.</p>`,
+    description: `<p>Developed "Analyrics," a full-stack web application with a lyrics analysis database of over 1 million songs, artists, and albums, using MongoDB, Express.js, React, Tailwind, RESTful APIs, and Node.js, resulting in low latency and a well-received iconic UI.<br><br>
+
+    Implemented NLP algorithms for lyrics analysis to identify emotions, vocabularies, trends, and collaborations in music. Visualized interactive artist collaboration maps, emotion analyses, reading levels, and word clouds creatively using D3.js.<br><br>
+
+    Developed efficient web scrapers for 1M+ web pages, implementing concurrency in Python, leveraging rate-limiting to avoid IP bans, and employing robust error handling, data validation, and retry mechanisms to ensure data integrity and reliability.<br><br>
+
+    Received overwhelmingly positive feedback from users and tech companies (Apple, Spotify, Genius), with feedback praising the platform's creativity, usability, design, and innovative features, contributing to a user base of 25,000+ users.</p>`,
     websiteLink: "https://analyrics.info/",
     githubLink: "https://github.com/shah-aryan/Analyrics",
     stack : [
@@ -27,8 +32,44 @@ const projects = [
     ]
   },  
   {
-    id: 2,
-    heading: "MHacks Google Winner | PokerFace: Real-Time CV+AI Poker Strategy App",
+    heading: "Batch",
+    description: `<p>Every day, hundreds of Ubers travel from the same starting points (cities) to the same destinations (airports, stations, concerts, events) at overlapping times. Each of these rides pays full price, wastes resources, increases emissions, and contributes to unnecessary traffic congestion. On Campus, we all see this during every holiday, where hundreds of Ubers overlapped from Ann Arbor to DTW airport.  <br><br>
+    
+    We bult Batch to transform inefficient travel into cost-effective, convenient, and eco-friendly solutions with ride batching, focusing on the Umich campus. We Developed a platform to connect college students going to the same destination with Uber and Lyft rides to help them save over 80% on transportation costs, along with contributing towards more eco-friendly travel future. Had 50+ ride bookings and connected 200+ students through this platform, resulting in a total savings of over $10,000.
+    
+    </p>`,
+    websiteLink: "https://batchme.app/",
+    stack : [
+      "Next.js",
+      "Supabase",
+      "Postgres",
+      "AWS Lambda",
+      "AWS SES",
+      "AWS EventBridge",
+      "Posthog",
+      "Vercel"
+    ]
+  },  
+  {
+    heading: "Thread Library, Virtual Memory Pager, and Multithreaded Networked File Server",
+    stack: [
+      "C++",
+      "C",
+      "Unix",
+      "Boost Library",
+      "Multithreading",
+      "Sockets",
+      "POSIX"
+    ],
+    description: `<p>
+    Implemented a kernel-level C++ thread library on Unix, managing CPU booting, thread management, handling 50+ CPU management tasks, interrupts, atomicity, and FIFO scheduling. Designed sophisticated synchronization primitives including spin-locks, mutexes, and conditional variables utilizing advanced Unix context management.<br><br>
+
+    Developed a robust virtual memory management system supporting multiple processes with swap-backed and file-backed memory pages (similar to mmap()). Managed complex process lifecycle including creation, forking, and destruction, while handling page faults, MMU bit manipulation, and swap disk operations with copy-on-write support.<br><br>
+
+    Constructed a highly concurrent, crash-consistent network file server supporting multiple users and nested file/folder structures. Optimized concurrency using Boost threads, implemented upgradeable locks, and utilized POSIX sockets for reliable client communication and system resilience.</p>`
+  },
+  {
+    heading: "MHacks Google Hackathon Winner | PokerFace: Real-Time CV+AI Poker Strategy App",
     websiteLink: "https://devpost.com/software/poker-face",
     githubLink: "https://github.com/shah-aryan/pokerface",
     stack: [
@@ -38,7 +79,7 @@ const projects = [
       "Firestore",
       "React Native",
       "Expo",
-      "FastAPI",
+      "FastAPI", 
       "Roboflow",
       "OpenCV",
       "WebSockets",
@@ -46,11 +87,12 @@ const projects = [
       "NumPy",
       "Pandas"
     ],
-    description: "Built PokerFace, a mobile application leveraging computer vision, mathematical models, emotion recognition, and multi-agent AI convergence to provide real-time poker strategy recommendations, gameplay tracking, user-specific tutoring, and game data storage. Integrated a CV pipeline (99.9% mAP, 100% recall) to accurately identify poker chips and cards, feeding data into the PokerFace engine to generate pot odds, bet sizing, equities, and expected values, along with agentic RAG AI strategy reviews."
+    description: `<p>Built PokerFace, a mobile application leveraging computer vision, mathematical models, emotion recognition, and multi-agent AI convergence to provide real-time poker strategy recommendations, gameplay tracking, user-specific tutoring, and game data storage.<br><br>
+
+    Integrated a CV pipeline (99.9% mAP, 100% recall) to accurately identify poker chips and cards, feeding data into the PokerFace engine to generate pot odds, bet sizing, equities, and expected values, along with agentic RAG AI strategy reviews.</p>`
   },
   {
-    id: 3,
-    heading: "Linguist AI Video Player | “Breaking The Sound Barrier”",
+    heading: 'Linguist AI Video Player | "Breaking The Sound Barrier"',
     websiteLink: "https://github.com/devk03/Linguist",
     githubLink: "https://github.com/devk03/Linguist",
     stack: [
@@ -67,48 +109,55 @@ const projects = [
       "AWS",
       "TailwindCSS"
     ],
-    description: "Developed a video player for low/corrupted/no-audio videos, utilizing SymphonicLabs lip-reading technology and a multithreaded parallel-processing algorithm to generate 96% accurate transcripts and live subtitles in 100+ languages. Enabled real-time LLM-powered conversations with video content using Retrieval-Augmented Generation (RAG), breaking language barriers and making video information accessible despite poor audio quality or corrupted audio."
+    description: `<p>Developed a video player for low/corrupted/no-audio videos, utilizing SymphonicLabs lip-reading technology and a multithreaded parallel-processing algorithm to generate 96% accurate transcripts and live subtitles in 100+ languages.<br><br>
+
+    Enabled real-time LLM-powered conversations with video content using Retrieval-Augmented Generation (RAG), breaking language barriers and making video information accessible despite poor audio quality or corrupted audio.</p>`
   },  
   {
-    id: 4,
     heading: "PreciPal Companion App ML Model",
-    description: "<p>Developed ML Object Detection Model for PreciPal, a companion app for PreciHealth’s self-vaccination auto-injection device, to ensure accurate device positioning guidance for an improvement in vaccination safety and accessibility for underserved regions. Enhanced model robustness and accuracy by incorporating diverse data sources, including low-resolution images and 3D CAD simulations, and optimizing for resource efficiency, leading to successful deployment across phone types and lighting conditions.</p>",
+    description: "<p>Developed ML Object Detection Model for PreciPal, a companion app for PreciHealth's self-vaccination auto-injection device, to ensure accurate device positioning guidance for an improvement in vaccination safety and accessibility for underserved regions. Enhanced model robustness and accuracy by incorporating diverse data sources, including low-resolution images and 3D CAD simulations, and optimizing for resource efficiency, leading to successful deployment across phone types and lighting conditions.</p>",
     websiteLink: "https://www.precihealth.com/products/",
   },
   {
-    id: 5,
+    heading: "Phi Beta Lambda Website | 1000+ Monthly Visitors",
+    description: `<p>Developed a website for Phi Beta Lambda, my professional business fraternity, in an effort to learn graphic/web design and improve my design engineering skills. The website is used to showcase their events, activities, and achievements, and receives over 1000 monthly visitors. With SEO optimization, this website now sees a 50% increase in traffic. </p>`,
+    websiteLink: "https://www.pblumich.com"
+  },
+  {
+    heading: "Limit Order Book Simulator",
+    description: "<p>Developed a synchronous limit order book simulator in Python, featuring trade matching, order execution, TCP/UDP connection protocol, and MVC (Model, View, Controller) structure. Simulated financial market limit order and provided simulation on which market making could occur. </p>",
+    githubLink: "https://github.com/shah-aryan/limit_order_book_2",
+  },
+  {
+    heading: "Pipelined Processor Simulator, Assembler, and Cache Simulator",
+    websiteLink: "https://devpost.com/software/poker-face",
+    githubLink: "https://github.com/shah-aryan/pokerface",
+    stack: [
+      "C++",
+      "C"
+    ],
+    description: "Designed a pipelined LC2K CPU simulator in C, modeling fetch, decode, execute, memory, write-back, and optimizing hazards. Built an assembler and cache simulator with configurable policies for memory access, cache alignment, and instruction throughput."
+  },
+  {
     heading: "Robotics Scouting Apps | 4th place worldwide",
     description: `<p>Developed and launched 4 game Scouting and Pit Scouting apps, on iOS and Android to streamline, democratize, and improve data collection and analysis, with a successful reception of 150+ downloads. Apps used to collect & analyze datasets, leveraging 10,000+ data points, 30 unique variables, and a custom algorithm to make automated alliance decisions for best competition standing, resulting in a 4th place worldwide Robot Alliance position in 2019.</p>`,
     //websiteLink: "https://www.robostangs.com/about-the-app"
   }, 
   {
-    id: 6,
-    heading: "Phi Beta Lambda Website | 1000+ Monthly Visitors",
-    description: `<p>Developed a website for Phi Beta Lambda, my professional business fraternity, in an effort to learn stellar graphic/web design and improve my frontend development skills. The website is used to showcase their events, activities, and achievements, and has received over 1000 monthly visitors. With SEO optimization, this website now sees a 50% increase in traffic. </p>`,
-    websiteLink: "https://www.pblumich.com"
-  },
-  {
-    id: 7,
-    heading: "Limit Order Book Simulator",
-    description: "<p>Developed a synchronous limit order book simulator in Python, featuring trade matching, order execution, TCP/UDP connection protocol, and MVC (Model, View, Controller) structure. Used by 15 new members to better understand market making.</p>",
-    githubLink: "https://github.com/shah-aryan/limit_order_book_2",
-  },
-  {
-    id: 8,
     heading: "Portfolio Rebalancing Algorithm",
     description: "Developed ML portfolio rebalancing algorithm, managing $20,000 portfolio for Ross School of Business's premier finance club, hedging risk and maximizing returns; contributed to an outperformance over the S&P 500 while minimizing Sharpe ratio risk.",
     githubLink: "https://github.com/AryamanGoenka0910/AlgorithmsW24",
   },
-  {
-    id: 9,
-    heading: "SQL++: Educational Tool for SQL/DSA",
-    description: "<p>Built educational relational database in C++17, with CREATE, INSERT, DELETE, PRINT, and JOIN commands, using Hash Tables, AVL trees, Red-Black Trees, and Comparators to show how data structures can affect performance. Used by 25+ students. Developed a CLI for the database, including conditional data filtering (WHERE) and indexing (GENERATE), providing hands-on and accessible database education, focusing on query optimization, data structures in indexing, and the machine model</p>",
-  },
-  {
-    id: 10,
-    heading: "Forum Post Subject Identifier",
-    description: "<p>Developed a Natural Language Processing program in C++ that leverages a Multivariate Bernoulli Naive Bayes Classifier algorithm to identify the subjects of forum posts, achieving a 92% success rate in subject classification. Implemented a custom binary search tree to store and search for elements efficiently, decreasing runtime and memory usage. </p>",
-  }
+  // {
+  //   id: 9,
+  //   heading: "SQL++: Educational Tool for SQL/DSA",
+  //   description: "<p>Built educational relational database in C++17, with CREATE, INSERT, DELETE, PRINT, and JOIN commands, using Hash Tables, AVL trees, Red-Black Trees, and Comparators to show how data structures can affect performance. Used by 25+ students. Developed a CLI for the database, including conditional data filtering (WHERE) and indexing (GENERATE), providing hands-on and accessible database education, focusing on query optimization, data structures in indexing, and the machine model</p>",
+  // },
+  // {
+  //   id: 10,
+  //   heading: "Forum Post Subject Identifier",
+  //   description: "<p>Developed a Natural Language Processing program in C++ that leverages a Multivariate Bernoulli Naive Bayes Classifier algorithm to identify the subjects of forum posts, achieving a 92% success rate in subject classification. Implemented a custom binary search tree to store and search for elements efficiently, decreasing runtime and memory usage. </p>",
+  // }
 ];
 
 const CardGrid = () => {
@@ -142,13 +191,13 @@ const CardGrid = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ type: "linear", duration: 0.5 }}
-          key={proj.id}
+          key={index}
           className={`featured-alt flex flex-col-reverse gap-10 items-start relative md:gap-20 md:flex-row ${
             index % 2 === 0 ? "justify-start" : "justify-end text-right"
           }`}
         >
           <span className="featured-no absolute text-[10rem] text-primary-300 -top-32 opacity-20 hidden xl:block">
-            0{proj.id}
+            0{index + 1}
           </span>
           {index === 0 && proj.image && (
             <div className="w-full z-10 relative md:w-1/2">
@@ -167,16 +216,16 @@ const CardGrid = () => {
             </div>
           )}
           <div className={`w-full z-10 md:w-2/3`}>
-            <h3 className="text-primary text-4xl font-semibold mb-4 dark:text-white">
+            <h3 className="text-primary text-4xl font-display mb-4 dark:text-white">
               {proj.heading}
             </h3>
             <RichText
-              className="text-primary-400 text-base dark:text-neutral-300 mb-4"
+              className="text-primary-400 text-base dark:text-neutral-300 mb-4 font-light "
               content={proj.description}
             />
             {proj.stack && (
               <RichText
-                className="text-primary-400 text-base dark:text-neutral-300 italic"
+                className="text-primary-400 text-base dark:text-neutral-300 italic font-light"
                 content={"Technologies Used: " + proj.stack.join(", ")}
               />
             )}

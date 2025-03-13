@@ -4,11 +4,19 @@ import { motion } from "framer-motion";
 
 const cardData = [
   {
+    company: "Susquehanna International Group",
+    period: "Summer 2025",
+    role: "INCOMING",
+    duties: [
+      "Incoming Summer 2025",
+    ]
+  }, 
+  {
     company: "Fidelity Investments",
-    period: "INCOMING",
+    period: "SEPT, 2024 - Present",
     role: "SOFTWARE ENGINEERING INTERN",
     duties: [
-      "Incoming Software Engineering Winter Intern",
+      "Off-Season",
     ]
   }, 
   {
@@ -41,11 +49,21 @@ const cardData = [
  {
   company: "V1@Michigan",
   period: "SEPTEMBER, 2023 - PRESENT",
-  role: "SOFTWARE ENGINEER",
+  role: "SOFTWARE ENGINEER, STRATEGY TEAM",
   duties: [
-   "Product Studio F24",
+   "Product Studio F24 (batchme.app)",
+   "Strategy Team - Scaling the premier community for student-led entrepreneurship on campus."
   ],
   link: "https://www.michiganinvestmentgroup.com/"
+ },
+ {
+  company: "MHacks",
+  period: "December, 2024 - PRESENT",
+  role: "SPONSORSHIPS",
+  duties: [
+   "Industry partnerships, negotiations, and sponsorship agreements.",
+  ],
+  link: "https://www.michiganpevc.org/"
  },
  {
   company: "Sugar Events and Entertainment",
@@ -99,15 +117,15 @@ const TwoColumnCard = () => {
      whileHover={{ scale: 1.02 }}
      className="cursor-pointer bg-gray-100 px-6 py-16 rounded-3xl filter shadow-md relative md:px-10 dark:bg-primary-500 h-full"
     >
-     <h6 className="text-2xl font-bold text-primary mb-4 dark:text-white">
+     <h6 className="text-3xl text-primary mb-4 dark:text-white font-display">
       <a href={card.link ? card.link : "#"} target="_blank" className="hover:underline">
        {card.company}
       </a>
-      <span className="mt-4 text-sm flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
+      <span className="mt-4 text-sm flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300 font-default">
        <CalendarIcon className="h-4 mr-2 text-neutral-600 dark:text-neutral-300" />
        {card.period}
       </span>
-      <span className="mt-2 text-sm flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300">
+      <span className="mt-2 text-sm flex items-center justify-start uppercase text-neutral-600 dark:text-neutral-300 font-default">
        <BriefcaseIcon className="h-4 mr-2 text-neutral-600 dark:text-neutral-300" />
        {card.role}
       </span>

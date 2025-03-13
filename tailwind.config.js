@@ -4,8 +4,10 @@ module.exports = {
   darkMode: "class",
   theme: {
     fontFamily: {
-      default: ["Poppins", "sans-serif"],
-      display: ["Krona One", "sans-serif"],
+      default: ["Inter", "sans-serif"],
+      display: ["Playfair Display", "sans-serif"],
+      garamond: ["Cormorant Garamond", "serif"],
+      serif: ["Times New Roman"]
     },
     extend: {
       colors: {
@@ -37,6 +39,10 @@ module.exports = {
           DEFAULT: "#EEEEEE",
         },
       },
+      fontSize: {
+        '10xl': ['8rem', '1'],   // Extremely large text
+        '11xl': ['10rem', '1'],  // Even larger if needed
+      }
     },
     container: {
       center: true, // serves as margin-inline: auto;

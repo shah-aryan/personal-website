@@ -19,24 +19,24 @@ function App() {
   });
 
   return (
-    <div className="bg-gray-300 dark:bg-primary">
+    <div className="bg-white dark:bg-primary">
       {loading ? (
         <>
           <NavBar />
           <HeroSection />
-          <SectionWrapper id="about" heading="ABOUT ME">
+          <SectionWrapper id="about" heading="About Me">
             <TabSection />
           </SectionWrapper>
-          <SectionWrapper id= "education" heading="EDUCATION">
+          <SectionWrapper id= "education" heading="Education">
             <UsesList />
           </SectionWrapper>
-          <SectionWrapper id="experience" heading="EXPERIENCE">
+          <SectionWrapper id="experience" heading="Experience">
             <TwoColumnCard />
           </SectionWrapper>
-          <SectionWrapper id="projects" heading="PROJECTS">
+          <SectionWrapper id="projects" heading="Projects">
             <FeaturedAlternate />
           </SectionWrapper>
-          <SectionWrapper id="skills" heading="SKILLS">
+          <SectionWrapper id="skills" heading="Skills">
             <Skills />
           </SectionWrapper>
           {/* <Footer /> */}

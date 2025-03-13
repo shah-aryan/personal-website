@@ -18,7 +18,7 @@
 
 @layer components {
   .hero__heading {
-    @apply text-5xl text-primary font-display relative sm:text-7xl md:text-9xl dark:text-white;
+    @apply text-5xl text-primary font-display relative sm:text-7xl md:text-10xl dark:text-white;
   }
 
   .hero__heading::before {

@@ -12,7 +12,7 @@ const SectionWrapper = ({
 }) => {
   const sectionClassNames = classnames(
     className, // className from props
-    "py-16 relative lg:py-24 dark:bg-primary overflow-hidden bg-gray-300"
+    "py-16 relative lg:py-24 dark:bg-primary overflow-hidden bg-white"
   );
 
   return (
@@ -26,7 +26,7 @@ const SectionWrapper = ({
             transition={{ type: "linear", duration: 0.5 }}
             className={`${
               textCenter && "xl:text-center"
-            }  font-display uppercase text-primary text-3xl text-center xl:text-left lg:text-5xl dark:text-white`}
+            }  font-display italic text-primary text-3xl text-center xl:text-left lg:text-7xl tracking-tight dark:text-white`}
           >
             {heading}
           </motion.h1>

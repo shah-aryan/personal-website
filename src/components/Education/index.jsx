@@ -3,12 +3,10 @@ import { motion } from "framer-motion";
 
 const educationData = [
   {
-    section: "University of Michigan",
+    section: "University of Michigan, Computer Science and Engineering",
     location: "Ann Arbor, MI",
-    degree: "Bachelor of Science in Computer Science",
-    minor: "Minor in Mathematics",
-    year: "2026",
-    gpa: "3.94/4.00",
+    degree: "Bachelor of Science in Computer Science, Minor in Mathematics",
+    year: "2027",
     scholarships: [
       "DECA Scholarship - DECA Inc's largest and most prestigious scholarship. 5 selected out of 10,000+ applicants for positive impact.",
       "CFCU Scholarship",
@@ -18,13 +16,15 @@ const educationData = [
     ],
     coursework: {
       computerScience: [
-        "EECS 445 - Machine Learning",
-        "EECS 485 - Web Systems",
-        "EECS 484 - Databases",
-        "EECS 370 - Computer Organization",
         "EECS 281 - Data Structures & Algorithms",
+        "EECS 482 + 498: Advanced Operating Systems",
+        "EECS 445 - Machine Learning",
+        "EECS 489 - Computer Networks",
+        "EECS 485 - Web Systems",
+        "EECS 370 - Computer Organization",
         "EECS 203 - Discrete Mathematics",
         "EECS 280 - Programming and Data Structures",
+        "EECS 201 - Linux Programming",
       ],
       mathematics: [
         "MATH 425 - Probability",
@@ -37,13 +37,13 @@ const educationData = [
     section: "University of Michigan, Stephen M. Ross School of Business",
     location: "Ann Arbor, MI",
     degree: "Bachelor of Business Administration",
-    year: "2026",
-    gpa: "4.00/4.00",
+    year: "2027",
     activities: [
       "Phi Beta Lambda Professional Business Fraternity - Standards Board Member",
       "Michigan Investment Group - Quant Division",
       "Michigan Private Equity and Venture Capital Club",
-      "V1@Michigan Product Studio",
+      "V1@Michigan Product Studio, Strategy Team",
+      "MHacks Sponsorships"
     ],
     coursework: {
       economics: [
@@ -83,22 +83,22 @@ const EducationList = () => {
           whileHover={{ scale: 1.02 }}
           className="cursor-pointer bg-gray-100 px-6 py-16 rounded-3xl h-full filter shadow-md relative md:px-10 dark:bg-primary-500 mb-12"
         >
-          <h6 className="text-xl font-bold text-primary mb-4 dark:text-white">
+          <h6 className="text-xl font-bold text-primary mb-4 dark:text-white font-display ">
             {section.section}
-            <span className="mt-4 text-base flex items-center justify-start text-neutral-600 dark:text-neutral-300">
+            <span className="mt-4 text-base flex items-center justify-start text-neutral-600 dark:text-neutral-300 font-normal">
               {section.location}
             </span>
-            <span className="mt-2 text-base flex items-center justify-start text-neutral-600 dark:text-neutral-300">
+            {/* <span className="mt-2 text-base flex items-center justify-start text-neutral-600 dark:text-neutral-300">
               GPA: {section.gpa}
-            </span>
-            <span className="mt-2 text-base flex items-center justify-start text-neutral-600 dark:text-neutral-300">
+            </span> */}
+            <span className="mt-2 text-base flex items-center justify-start text-neutral-600 dark:text-neutral-300 font-normal">
               {section.degree}
             </span>
-            {(
+            {/* {(
               <span className="mt-2 text-base flex items-center justify-start text-neutral-600 dark:text-neutral-300">
                 {section.minor ? `${section.minor}` : "     \u3000"}
               </span>
-            )}
+            )} */}
           </h6>
           <div className="relative mb-4">
             <div className="absolute inset-0 flex items-center" aria-hidden="true">
@@ -114,7 +114,7 @@ const EducationList = () => {
             <>
               {section.coursework.computerScience && (
                 <>
-                  <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2">
+                  <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2 font-display">
                     Computer Science
                   </h3>
                   <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">
@@ -126,7 +126,7 @@ const EducationList = () => {
               )}
               {section.coursework.mathematics && (
                 <>
-                  <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2">
+                  <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2 font-display">
                     Mathematics
                   </h3>
                   <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">
@@ -138,7 +138,7 @@ const EducationList = () => {
               )}
               {section.coursework.economics && (
                 <>
-                  <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2">
+                  <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2 font-display">
                     Economics
                   </h3>
                   <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">
@@ -150,7 +150,7 @@ const EducationList = () => {
               )}
               {section.coursework.business && (
                 <>
-                  <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2">
+                  <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2 font-display">
                     Business
                   </h3>
                   <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">
@@ -165,7 +165,7 @@ const EducationList = () => {
 
           {section.activities && (
             <>
-              <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2">
+              <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2 font-display">
                 Activities
               </h3>
               <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">
@@ -177,7 +177,7 @@ const EducationList = () => {
           )}
           {section.scholarships && (
             <>
-              <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2">
+              <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2 font-display">
                 Scholarships
               </h3>
               <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">

@@ -27,7 +27,7 @@ const SkillIcons = () => {
       <div className="w-full flex flex-col items-center justify-center">
         <img
           className="w-3/4"
-          src={`https://skillicons.dev/icons?i=cpp,c,python,js,ts,java,kotlin,swift,postgres,mongodb,androidstudio,git,github,selenium,anaconda&perline=${perLine}`}
+          src={`https://skillicons.dev/icons?i=neovim,cpp,c,python,js,ts,java,kotlin,swift,postgres,mongodb,androidstudio,git,github,selenium,anaconda&perline=${perLine}`}
           alt="My Skills"
         />
         <img
