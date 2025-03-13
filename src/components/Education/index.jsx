@@ -105,7 +105,7 @@ const EducationList = () => {
               <div className="w-full border-t border-gray-300" />
             </div>
             <div className="relative flex justify-center">
-              <span className="px-2 bg-gray-50 text-sm text-gray-500 dark:bg-primary-500">
+              <span className="px-2 bg-gray-50 text-sm text-gray-500 dark:bg-primary-500 ">
                 Relevant Coursework
               </span>
             </div>
@@ -117,7 +117,7 @@ const EducationList = () => {
                   <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2 font-display">
                     Computer Science
                   </h3>
-                  <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">
+                  <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4 font-light">
                     {section.coursework.computerScience.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
@@ -129,7 +129,7 @@ const EducationList = () => {
                   <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2 font-display">
                     Mathematics
                   </h3>
-                  <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">
+                  <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4 font-light">
                     {section.coursework.mathematics.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
@@ -141,7 +141,7 @@ const EducationList = () => {
                   <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2 font-display">
                     Economics
                   </h3>
-                  <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">
+                  <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4 font-light">
                     {section.coursework.economics.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
@@ -153,7 +153,7 @@ const EducationList = () => {
                   <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2 font-display">
                     Business
                   </h3>
-                  <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">
+                  <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4 font-light">
                     {section.coursework.business.map((item, index) => (
                       <li key={index}>{item}</li>
                     ))}
@@ -168,7 +168,7 @@ const EducationList = () => {
               <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2 font-display">
                 Activities
               </h3>
-              <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">
+              <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4 font-light">
                 {section.activities.map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}
@@ -180,7 +180,7 @@ const EducationList = () => {
               <h3 className="text-xl font-semibold text-neutral-800 dark:text-neutral-200 mb-2 font-display">
                 Scholarships
               </h3>
-              <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4">
+              <ul className="text-sm text-primary-400 list-inside list-disc dark:text-neutral-200 mb-4 font-light">
                 {section.scholarships.map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}
