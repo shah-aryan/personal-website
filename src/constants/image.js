@@ -12,7 +12,6 @@ import gitLogo from "../assets/logo/git-logo.svg";
 import githubLogo from "../assets/logo/github-logo.svg";
 import nextLogo from "../assets/logo/next-logo.svg";
 import hubspotLogo from "../assets/logo/hubspot-logo.svg";
-import felixImage from "../assets/whacky-felix.png";
 import bluecheckImage from "../assets/projects/bluecheck-visible.png";
 import catifyImage from "../assets/projects/catify-visible.png";
 import agencyImage from "../assets/projects/agency-visible.png";
@@ -41,7 +40,6 @@ export default {
   githubLogo,
   nextLogo,
   hubspotLogo,
-  felixImage,
   bluecheckImage,
   catifyImage,
   agencyImage,
