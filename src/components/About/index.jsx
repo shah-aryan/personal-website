@@ -57,12 +57,12 @@ const TabSection = () => {
               <ul className="list-disc pl-10 text-lg font-light text-neutral-700 dark:text-neutral-300">
                 <li>Fred Again</li>
                 <li>Playboi Carti</li>
-                <li>The Neighbourhood</li>
+                {/* <li>The Neighbourhood</li> */}
                 <li>Saint Levant</li>
                 <li>Lavern</li>
                 <li>Sudan Archives</li>
                 <li>In This Moment</li>
-                {/* <li>Caroline Polachek</li> */}
+                <li>Caroline Polachek</li>
               </ul>
             </div>
           </div>

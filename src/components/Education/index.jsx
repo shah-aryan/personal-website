@@ -50,7 +50,7 @@ const educationData = [
 ];
 
 const activitiesData = {
-  section: "Extracurricular Activities",
+  section: "Activities & Societies",
   location: "University of Michigan",
   items: [
     "Phi Beta Lambda Professional Business Fraternity - Standards Board Member",
