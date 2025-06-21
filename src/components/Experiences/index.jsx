@@ -5,92 +5,87 @@ import { motion } from "framer-motion";
 const cardData = [
   {
     company: "Susquehanna International Group",
-    period: "Summer 2025",
-    role: "INCOMING",
+    period: "2025",
+    role: "Software Engineering Intern",
     duties: [
-      "Incoming Summer 2025",
+      "Performant Trade Execution Services",
+    ]
+  }, 
+  {
+    company: "Scale AI",
+    period: "2025",
+    role: "Technical Advisor Intern",
+    duties: [
+      "Large Language Models",
     ]
   }, 
   {
     company: "Fidelity Investments",
-    period: "SEPT, 2024 - Present",
+    period: "2024-2025",
     role: "SOFTWARE ENGINEERING INTERN",
     duties: [
-      "Off-Season",
+      "Statistical Modeling",
     ]
   }, 
   {
   company: "Stealth Startup",
-  period: "MARCH, 2024 - PRESENT",
-  role: "SOFTWARE ENGINEER",
+  period: "2024",
+  role: "SOFTWARE ENGINEERing intern",
   duties: [
-   "Developed full-stack HR-technology LLM web app using React, TailwindCSS, Django, PostgreSQL, Docker, Redis, StripeAPI, OpenAI API, and AWS hosting"
+   "HR Technology"
   ]
  },
  {
   company: "TECH5AI",
-  period: "APRIL, 2023 - AUGUST, 2023",
+  period: "2023",
   role: "MACHINE LEARNING INTERN",
   duties: [
-   "Developed YOLOv4 Machine Learning model for PreciPal self-vaccinator companion app, improving self-vaccinations in underserved areas",
+   "Self Vaccination Technology",
   ],
   link: "https://tech5.ai/"
  },
  {
   company: "Michigan Investment Group - Quant Division",
-  period: "JANUARY, 2023 - PRESENT",
+  period: "2024",
   role: "QUANTITATIVE DEVELOPER",
   duties: [
-   "Factor-Based Portfolio Rebalancing Algorithm with ML-Based Target Asset Allocation",
-   "Python Limit Order Book simulator with trade matching and order optimization"
+   "Limit Order Book and Portfolio Rebalancing"
   ],
   link: "https://www.michiganinvestmentgroup.com/"
  },
  {
   company: "V1@Michigan",
-  period: "SEPTEMBER, 2023 - PRESENT",
-  role: "SOFTWARE ENGINEER, STRATEGY TEAM",
+  period: "2024",
+  role: "SOFTWARE ENGINEER",
   duties: [
-   "Product Studio F24 (batchme.app)",
-   "Strategy Team - Scaling the premier community for student-led entrepreneurship on campus."
+   "Building ride batching service powered by Uber - batchme.app",
   ],
   link: "https://www.michiganinvestmentgroup.com/"
  },
  {
-  company: "MHacks",
-  period: "December, 2024 - PRESENT",
-  role: "SPONSORSHIPS",
-  duties: [
-   "Industry partnerships, negotiations, and sponsorship agreements.",
-  ],
-  link: "https://www.michiganpevc.org/"
- },
- {
   company: "Sugar Events and Entertainment",
-  period: "JUNE, 2023 - PRESENT",
+  period: "2023-2024",
   role: "WEDDING AND EVENT MC",
   duties: [
    "25+ Weddings, Parties, and Professional Events completed",
-   "All 5 star reviews Recieved"
   ],
   link: "https://sugareventsent.com/"
  },
  {
   company: "Michigan Private Equity and Venture Capital",
-  period: "JANUARY, 2023 - PRESENT",
-  role: "VENTURE CAPITAL ASSOCIATE",
+  period: "2023",
+  role: "Associate",
   duties: [
-   "Sourced ventures in HR technology and Fintech verticals for $6B technology-oriented growth equity firm",
+   "Growth Equity Sourcing",
   ],
   link: "https://www.michiganpevc.org/"
  },
  {
   company: "Michigan DECA",
-  period: "APRIL, 2022 - APRIL, 2023",
-  role: "VICE PRESIDENT OF CAREER DEVELOPMENT",
+  period: "2022-2023",
+  role: "State Officer",
   duties: [
-   "Elected by 8,000 members across Michigan",
-   "VP Of Career Development; Training Handbook Lead Author"
+   "Shine with Shah"
   ]
  }
 ];
@@ -130,7 +125,7 @@ const TwoColumnCard = () => {
        {card.role}
       </span>
      </h6>
-     <div className="relative mb-4">
+     {/* <div className="relative mb-4">
       <div className="absolute inset-0 flex items-center" aria-hidden="true">
        <div className="w-full border-t border-gray-300" />
       </div>
@@ -139,7 +134,7 @@ const TwoColumnCard = () => {
         duties & responsibilities
        </span>
       </div>
-     </div>
+     </div> */}
      <ul className="mt-2 text-sm  text-neutral-600 dark:text-neutral-300">
       {card.duties.map((duty, idx) => (
        <li key={idx}>{duty}</li>

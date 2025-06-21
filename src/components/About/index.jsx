@@ -26,7 +26,7 @@ const TabSection = () => {
         >
           <h2 className="text-3xl font-semibold mt-4 mb-4 font-display">My name is Aryan, and I love learning, building, and exploring.</h2>
           <p className="text-lg font-light text-neutral-700 dark:text-neutral-300 mb-4  ">
-          I study CS and business at the University of Michigan with a minor in math. I'm currently most interested in systems computing, machine learning, financial markets, UI/UX, talking to strangers, and weightlifting. I love public speaking, playing drums, running, and music. In my free time, I work as a part time Wedding MC!
+          I study CS and business at the University of Michigan with a minor in math. I'm currently most interested in systems computing, machine learning, financial markets, writing, talking to strangers, and weightlifting. I love public speaking, playing drums, running, and music. In my free time, I work as a part time Wedding MC!
           </p>
           <div className="flex flex-col md:flex-row gap-8">
             <div className="flex-1">
@@ -41,7 +41,7 @@ const TabSection = () => {
                 <li>Joel Greenblatt</li>
                 <li>Ray Dalio</li>  
                 <li>Dmitri Nesteruk</li>
-                <li>Kate Elizabeth Russell</li>
+                <li>Donella Meadows</li>
                 <li>Umut Acar</li>
                 <li>Peter Attia</li>
               </ul>
