@@ -45,6 +45,14 @@ const cardData = [
   link: "https://tech5.ai/"
  },
  {
+  company: "University of Michigan College of Engineering",
+  period: "2025",
+  role: "EECS 281 INSTRUCTIONAL AIDE",
+  duties: [
+   "Data Structures and Algorithms Instructional Aide"
+  ]
+ },
+ {
   company: "Michigan Investment Group - Quant Division",
   period: "2024",
   role: "QUANTITATIVE DEVELOPER",
@@ -80,14 +88,14 @@ const cardData = [
   ],
   link: "https://www.michiganpevc.org/"
  },
- {
-  company: "Michigan DECA",
-  period: "2022-2023",
-  role: "State Officer",
-  duties: [
-   "Shine with Shah"
-  ]
- }
+//  {
+//   company: "Michigan DECA",
+//   period: "2022-2023",
+//   role: "State Officer",
+//   duties: [
+//    "Shine with Shah"
+//   ]
+//  }
 ];
 
 const TwoColumnCard = () => {
@@ -145,7 +153,7 @@ const TwoColumnCard = () => {
 
   </motion.div>
   <p className="text-center text-neutral-600 dark:text-neutral-300 text-md mt-8 w-full">
-    For technical details on my experiences, please contact me for my official resume.
+    For details on my experiences, please contact me for my official resume.
   </p>
   </>
 

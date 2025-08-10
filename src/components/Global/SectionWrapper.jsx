@@ -18,7 +18,7 @@ const SectionWrapper = ({
   return (
     <section id={id} className={sectionClassNames}>
       <div className={`container ${fullWidth && "max-w-full px-0"}`}>
-        <div className="mb-8 lg:mb-16 flex justify-center">
+        <div className="mb-16 flex justify-center">
           <motion.h1
             viewport={{ once: true }}
             initial={{ opacity: 0, y: 10 }}
@@ -26,7 +26,7 @@ const SectionWrapper = ({
             transition={{ type: "linear", duration: 0.5 }}
             className={`${
               textCenter && "xl:text-center"
-            }  font-display italic text-primary text-3xl text-center xl:text-left lg:text-7xl tracking-tight dark:text-white`}
+            }  font-display italic text-primary text-center xl:text-left text-7xl tracking-tight dark:text-white`}
           >
             {heading}
           </motion.h1>

@@ -33,17 +33,17 @@ const TabSection = () => {
               <div className="flex items-center mb-2">
                 <FaBook className="mr-3 text-xl text-neutral-700 dark:text-neutral-300" />
                 <p className="text-lg font-light text-neutral-700 dark:text-neutral-300">
-                  Currently Reading:
+                  Recently Reading:
                 </p>
               </div>
               <ul className="list-disc pl-10 text-lg font-light text-neutral-700 dark:text-neutral-300">
                 <li>Sayaka Murata</li>
-                <li>Joel Greenblatt</li>
-                <li>Ray Dalio</li>  
                 <li>Dmitri Nesteruk</li>
+                <li>Matt Levine</li>
                 <li>Donella Meadows</li>
                 <li>Umut Acar</li>
                 <li>Peter Attia</li>
+                <li>Suzanne Collins</li>  
               </ul>
             </div>
 
