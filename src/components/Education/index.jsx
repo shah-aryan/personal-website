@@ -57,11 +57,10 @@ const activitiesData = {
   section: "Activities & Societies",
   location: "University of Michigan",
   items: [
-    "Phi Beta Lambda Professional Business Fraternity - Standards Board Member",
     "Michigan Investment Group - Quant Division",
-    "Michigan Private Equity and Venture Capital Club",
     "V1@Michigan Product Studio, Strategy Team",
-    "MHacks Sponsorships"
+    "Phi Beta Lambda Professional Business Fraternity - Standards Board Member",
+    "Michigan Private Equity and Venture Capital Club",
   ]
 };
 
